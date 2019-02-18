@@ -16,29 +16,7 @@ import TextInput from 'react-native-cz-inputtext';
 /> 
 ```
 
-###  2.方法说明:
-```
-/*
-* 赋值当前视图对象
-* */
-evaluateView
-```
-
-```
-/*
-* 文本变动回调事件
-* */
-onChangeText
-```
-
-```
-/*
-* 修改TextInput显示文本信息
-* */
-this.textInput.modifyPlaceholder('modify');
-```
-
-###  3.属性说明:
+###  2.属性:
 ```
 type: 显示类型 1.正常输入 2.银行卡格式
 ```
@@ -53,4 +31,29 @@ placeholderText: 默认文本：请输入
 ```
 ```
 titleInfo: {'text': '标题', style: {fontSize: 16, color: 'red', width: 60}}
+```
+
+
+###  3.属性方法:
+```
+/*
+* 赋值当前视图对象
+* */
+evaluateView
+```
+
+```
+/*
+* 文本变动回调事件
+* */
+onChangeText
+```
+
+
+###  4.供外部调用的方法:
+```
+/*
+* 修改TextInput显示文本信息
+* */
+this.textInput.modifyPlaceholder('modify');
 ```
