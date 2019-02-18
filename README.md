@@ -26,8 +26,15 @@ evaluateView
 
 ```
 /*
-    * 修改TextInput显示文本信息
-    * */
+* 文本变动回调事件
+* */
+onChangeText
+```
+
+```
+/*
+* 修改TextInput显示文本信息
+* */
 this.textInput.modifyPlaceholder('modify');
 ```
 

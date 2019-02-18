@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, Image } from 'react-native';
 
 /*
+* props:
 * type: 显示类型 1.正常输入 2.银行卡格式
 * mainStyle: 总视图类型 {mariginLeft: 10}
 * textInputStyle: {marginRight: 20}
 * placeholderText: 默认文本：请输入
 * titleInfo: {'text': '标题', style: {fontSize: 16, color: 'red', width: 60}}
+*
+* func:
+* evaluateView: 赋值当前对象
+* onChangeText: 文本变动回调事件
+*
+* export func:
+* modifyPlaceholder: 修改TextInput显示文本信息
 * */
 export default class CZTextInput extends Component{
 
